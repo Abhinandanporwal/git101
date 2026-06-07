@@ -7,7 +7,7 @@ class Employee {
 
     displayDetails() {
         console.log(
-            `Name: ${this.name}, Role: ${this.role}, Salary: ₹${this.salary}`
+            `Name: ${this.name}vdvdv, Role: ${this.role}, Salary: ₹${this.salary}`
         );
     }
 }
