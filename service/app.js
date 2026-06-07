@@ -6,8 +6,8 @@ class Employee {
     }
 
     displayDetails() {
-        consol sfsf fse.log(
-            `Name: ${this.name}, Role: ${this.ddfdffrole}, Salary: ₹${this.salary}`
+        console.log(
+            `Name: ${this.name}vdvdv, Role: ${this.role}, Salary: ₹${this.salary}`
         );
     }
 }
