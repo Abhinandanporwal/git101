@@ -1,12 +1,13 @@
 class Employee {
     constructor(name, role, salary) {
         this.name = name;
-        this.role = role;
+       this.salary = salary;
         this.salary = salary;
     }
 
     displayDetails() {
         console.log(
+            this.salary = salary;
             `Name: ${this.name}, Role: ${this.role}, Salary: ₹${this.salary}`
         );
     }
@@ -14,6 +15,5 @@ class Employee {
 
 const employees = [
     new Employee("Abhinandan", "Frontend Developer", 80000),
-    new Employee("Rahul", "Backend Developer", 75000),
-    new Employee("Priya", "UI/UX Designer", 70000),
-];
+    new Employee("Abhinandan", "Frontend Developer", 80000),
+    new Employee("Abhinandan", "Frontend Developer", 80000),
